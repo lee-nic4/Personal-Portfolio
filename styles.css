@@ -165,8 +165,8 @@ font-size: 1.15rem;
 .projects-grid {
   width: 70%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
   gap: 1rem;
   align-items: center;
   padding: 1rem;
