@@ -164,6 +164,8 @@ font-size: 1.15rem;
 
 .projects-grid {
   width: 70%;
+  min-width: 0;
+  min-height: 0;
   display: grid;
   grid-template-columns: 200px 200px;
   grid-template-rows: 200px 200px;
@@ -193,6 +195,7 @@ a.project {
 .project-image {
   object-fit: cover;
   height: 80%;
+  overflow: hidden;
 }
 
 .projects-header-section {
