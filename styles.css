@@ -194,8 +194,6 @@ a.project {
 
 .project-image {
   object-fit: cover;
-  height: 150px;
-  width: 200px;
   overflow: hidden;
 }
 
