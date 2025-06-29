@@ -1,0 +1,406 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leanna Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <div id="navbar" class="navbar-section"><div class="nav-bar">
+      <div class="name"><h2>Leanna Nicholas</h2></div>
+      <div class="nav">
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav></div></div></div>
+      <div class="welcome-background"><section class="hero" id="welcome-section">
+      <div class="tagline">
+      <p>Hi, I'm</p><h1>Leanna Nicholas</h1>
+      <p>
+        An Aspiring Full-Stack Developer<br>Building My Way Forward,<br>One Stack at a Time.
+      </p></div>
+      <div class="bio"><p>I'm an operations and analytics leader with over 15 years of experience in financial services, specializing in process optimization and data-driven strategy. I'm currently transitioning into full-stack development to build scalable, user-friendly web solutions that thrive in open-source and mission-driven environments. I love combining my knack for efficiency with my passion for clean, impactful code, and I'm excited to create tech that makes a real difference.</p>
+      </div>      
+    </section></div>
+    <div class="projects-background"><section id="projects" class="projects-section">
+      <div class="projects-grid">
+        <div class="project-tile">
+        <p class="project-title">Product Landing Page</p>
+        <a href="https://lee-nic4.github.io/Product-Landing-Page/" target="_blank" class="project">
+          <img class="project-image" src="https://1drv.ms/i/c/8bf6ac63c8961508/EfklkGOVrE1Bo5O4yxqk7pABCDq4AXQvcGwHi7nY4pCGdg?e=TO1yH2" alt="smart-mirror-product-landing-page">
+        </a></div>
+      <div class="project-tile">
+        <p class="project-title">Technical Document</p>
+        <a href="https://lee-nic4.github.io/Technical-Documentation/" target="_blank" class="project">
+          <img class="https://1drv.ms/i/c/8bf6ac63c8961508/ET9mq4B33SpIprC3oE2XxqEBRJRY_1BX8mQSIXmXTbKGiA?e=3vEqPf" alt="vpn-access-technical-documentation"></a></div>
+          <div class="project-tile">
+            <p class="project-title">Survey Form</p>
+            <a href="https://lee-nic4.github.io/Survey-Project/" target="_blank" class="project">
+          <img class="project-image" src="https://1drv.ms/i/c/8bf6ac63c8961508/ERPR0o4EJaNArXz9TOMh7RUBdYmGYAKxGI2DGMo-71cWFQ?e=UZ4HvZ" alt="employee-satisfaction-survey-form">
+        </a></div>
+        <div class="project-tile">
+          <p class="project-title">Tribute Page</p>
+          <a href="https://lee-nic4.github.io/Tribute-Page/" target="_blank" class="project">
+          <img class="https://1drv.ms/i/c/8bf6ac63c8961508/EVqmArxHXxVJmTb0-IyQF0sBlM1yraLwymtbDXEX_96nLg?e=oL2kCA" alt="Wakanda-Woman-Queen-Tribute-Page">
+        </a></div></div>
+        <div class="projects-header-section"><h2>Code That Speaks Louder Than Words</h2>
+      <h3 class="projects-sub-header">Check out some of my projects</h3></div>
+    </section></div>
+    <section id="contact" class="contact-info-section">
+      <div class="contact-header"><h2>Let's Build Something Beautiful Together</h2>
+      <h3 class="contact-sub-header">Whether it's code, collaboration, or career opportunities, I'm just a message away</h3></div>
+      <div class="social-icons">
+          <a href="https://www.linkedin.com/in/leanna-nicholas" target="_blank"
+          class="contact-details">
+            <i class="bi bi-linkedin linkedin"></i>  LinkedIn</a>
+          <a id="profile-link" href="https://github.com/lee-nic4" target="_blank"
+          class="contact-details">
+            <i class="bi bi-github github"></i>  GitHub
+          </a>
+          <a href="mailto:nichl2@icloud.com" target="_blank"
+          class="contact-details">
+            <i class="fab fa-envelope email"></i>  Send me an email
+          </a>
+      </div>
+    </section>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+:root {
+  --charcoal: #333333;
+  --navy: #536878;
+  --blush: #efe5df;
+  --rose-gold: #b86c6c;
+  --ivory: #fafafa;
+  --burnt-orange: #e25959;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, Geneva, Verdana, sans-serif;
+  color: var(--charcoal);
+  text-align: center;
+  background: var(--navy);
+  padding-top: 20px;
+}
+
+/* NAVBAR SECTION */
+
+.navbar-section {
+  position: fixed;
+  top: 0;
+  background: var(--ivory);
+  width: 100%;
+  height: 100px;
+  padding: 1rem 1rem;
+  z-index: 100;
+  margin: auto;
+  display: absolute;
+}
+
+.nav-bar {
+  width: 80vw;
+  margin: auto;
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  align-items: baseline;
+}
+
+.name {
+  color: var(--rose-gold);
+  font-size: 1.9rem;
+  margin-right: auto;
+  font-family: Pacifico;
+  font-style: italic;
+}
+
+.nav {
+  font-weight: 550;
+  font-size: 1.2rem;
+  color: var(--charcoal);
+  margin-left: auto;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.nav-list a:link {
+  color: var(--charcoal);
+  text-decoration: none;
+}
+
+.nav-list a:visited {
+  color: var(--charcoal);
+}
+
+.nav-list a:hover {
+  color: var(--blush);
+}
+
+.nav-list a:active {
+  color: var(--blush);
+}
+
+/* WELCOME SECTION */
+
+.welcome-background {
+  width: 100vw;
+  margin: 0 auto;
+  background-image: url("https://images.pexels.com/photos/7971542/pexels-photo-7971542.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(83, 104, 120, .5);
+  background-blend-mode: multiply;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.hero {
+  padding: 2rem 1rem;
+  
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: var(--blush);
+}
+
+.tagline {
+  width: 50%;
+  line-height: 1.3;
+  font-style: italic;
+  margin: auto;
+}
+
+.tagline h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--rose-gold);
+  letter-spacing: 2px;
+  font-family: Pacifico;
+}
+
+.tagline p {
+font-weight: 550;
+font-size: 1.15rem;
+}
+
+.bio {
+  width: 45%;
+  font-size: .95rem;
+  font-weight: 550;
+  display: block;
+  margin: auto;
+}
+
+/* PROJECT SECTION */
+
+.projects-background{
+  background-color: var(--blush);
+  margin: auto;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.projects-section {
+  padding: 2rem 1rem;
+  width: 80vw;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  color: var(--rose-gold);
+}
+
+.projects-grid {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.project-tile {
+  padding: 2rem 2rem;
+  padding-top: 1rem;
+  color: var(--navy);
+}
+
+a.project {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.project-title {
+  font-weight: 550;
+  font-size: 1.1rem;
+}
+
+.project-image {
+  object-fit: cover;
+}
+
+.projects-header-section {
+  margin: auto;
+  font-size: .95rem;
+  width: 25%;
+  justify-content: center;
+}
+
+.projects-sub-header {
+  font-style: italic;
+  padding-top: .5rem;
+  color: var(--navy);
+}
+
+/* CONTACT SECTION */
+
+.contact-info-section {
+  background: var(--navy);
+  width: 100%;
+  margin: auto;
+  position: relative;
+  padding: 0;
+  padding-top: 2rem;
+  margin-bottom: 0;
+  display: inline-block;
+  color: var(--blush);
+  font-size: .95rem;
+}
+
+.contact-header {
+  margin: auto;
+}
+
+.contact-sub-header {
+  font-style: italic;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  color: var(--ivory);
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;  
+  font-size: 1rem;
+  line-height: 1.3;
+  border-radius: 80% 80% 0 0;
+  background: var(--ivory);
+  margin-bottom: 0;
+  height: 10vh;
+  padding-top: 2rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons a:link {
+  color: var(--navy);
+}
+
+.social-icons a:visited {
+  color: var(--navy);
+}
+
+.social-icons a:hover {
+  color: var(--rose-gold);
+}
+
+.social-icons a:active {
+  color: var(--burnt-orange);
+}
+
+@media only screen and (max-width: 860px) {
+
+* {
+  font-size: .5rem;
+}
+ .name {
+  font-size: 1.5rem;}
+
+
+.nav {
+  font-weight: 500;
+  font-size: 1rem;}
+
+
+.tagline h1 {
+  font-size: 1.7rem;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+.tagline p {
+font-weight: 500;
+font-size: .95rem;
+}
+
+.project-title {
+  font-weight: 450;
+  font-size: .8rem;
+}
+
+.projects-header-section {
+  font-size: .7rem;
+}
+
+
+.projects-sub-header {
+  padding-top: .2rem;
+}
+
+.contact-info-section {
+  font-size: .7rem;
+}
+
+.social-icons {  
+  font-size: .5rem;
+}
+
+}
+
+** end of styles.css **
+
