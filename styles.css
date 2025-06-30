@@ -223,7 +223,7 @@ a.project {
   position: relative;
   padding: 0;
   padding-top: 2rem;
-  margin-bottom: 0;
+  margin-top: auto;
   display: inline-block;
   color: var(--blush);
   font-size: .95rem;
