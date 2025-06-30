@@ -275,10 +275,7 @@ a.project {
   color: var(--burnt-orange);
 }
 
-@media only screen and (max-height: 720px){
-.projects-background{
-  overflow: scroll;
-}
+/** @MEDIA CHANGES **/
 
 @media only screen and (max-width: 860px) {
 
