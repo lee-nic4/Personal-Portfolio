@@ -19,6 +19,9 @@ body {
   text-align: center;
   background: var(--navy);
   padding-top: 20px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
 }
 
 /* NAVBAR SECTION */
