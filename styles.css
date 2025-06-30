@@ -147,10 +147,9 @@ font-size: 1.15rem;
 
 .projects-background{
   background-color: var(--blush);
-  margin: auto;
+  margin: 0 auto;
   width: 100vw;
-  height: auto;
-  min-height: 750px;
+  height: 7rem;
   position: relative;
   overflow: scroll;
 }
@@ -219,7 +218,7 @@ a.project {
 .contact-info-section {
   background: var(--navy);
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   position: relative;
   padding: 0;
   padding-top: 2rem;
