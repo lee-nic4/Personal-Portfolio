@@ -171,13 +171,12 @@ font-size: 1.15rem;
   grid-template-rows: auto auto;
   gap: 1rem;
   align-items: center;
-  padding: 1rem;
-}
-
-.project-tile {
   padding: 2rem 2rem;
   padding-top: 1rem;
   color: var(--navy);
+}
+
+.project-tile {
   width: 100%;
 }
 
