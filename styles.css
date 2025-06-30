@@ -231,6 +231,7 @@ a.project {
 
 .contact-header {
   margin: 0 auto;
+  height: auto;
 }
 
 .contact-sub-header {
@@ -251,7 +252,8 @@ a.project {
   background: var(--ivory);
   margin: 0 auto;
   margin-top: auto;
-  height: 10vh;
+  height: auto;
+  padding-bottom: .5rem;
   padding-top: 2rem;
 }
 
