@@ -250,7 +250,7 @@ a.project {
   border-radius: 80% 80% 0 0;
   background: var(--ivory);
   margin: 0 auto;
-  margin-bottom: 0;
+  margin-top: auto;
   height: 10vh;
   padding-top: 2rem;
 }
