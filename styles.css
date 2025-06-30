@@ -152,6 +152,7 @@ font-size: 1.15rem;
   height: auto;
   min-height: 750px;
   position: relative;
+  overflow: scroll;
 }
 
 .projects-section {
