@@ -149,9 +149,8 @@ font-size: 1.15rem;
   background-color: var(--blush);
   margin: 0 auto;
   width: 100vw;
-  height: 7rem;
+  height: 2rem;
   position: relative;
-  overflow: scroll;
 }
 
 .projects-section {
@@ -273,6 +272,11 @@ a.project {
   color: var(--burnt-orange);
 }
 
+@media only screen and (max-width: 1020px) {
+.projects-background{
+  overflow: scroll;
+}
+
 @media only screen and (max-width: 860px) {
 
 * {
@@ -298,6 +302,10 @@ font-weight: 500;
 font-size: .95rem;
 }
 
+.projects-background{
+  overflow: scroll;
+}
+  
 .project-title {
   font-weight: 450;
   font-size: .8rem;
