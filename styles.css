@@ -281,27 +281,31 @@ a.project {
 
 @media only screen and (max-width: 860px) {
 
-* {
+  * {
   overflow: scroll;
-  height: auto;
+height: auto;
+font-size: 11px;
 }
+
+ .navbar-section {
+  font-size: 1.2rem;
+height: auto;
+}
+
  .name {
-  font-size: 1.5rem;}
-
-.navbar-section {
-  height: auto;
+  font-size: 2rem;
 }
 
-.tagline h1 {
-  letter-spacing: 1px;
+ .welcome-background {
+  font-size: 1rem;
 }
 
-.projects-background{
-  overflow: scroll;
+ .projects-background {
+  font-size: 1rem;
 }
 
-.projects-sub-header {
-  padding-top: .2rem;
+ .contact-info-section {
+  font-size: 1rem;
 }
 
 
