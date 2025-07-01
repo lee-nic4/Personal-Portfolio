@@ -285,7 +285,7 @@ a.project {
 @media only screen and (max-width: 860px) {
 
   * {
-  overflow: scroll;
+  
 height: auto;
 font-size: 11px;
 }
@@ -294,14 +294,16 @@ font-size: 11px;
   font-size: 1rem;
 height: auto;
    gap: 1rem;
+   overflow: scroll;
 }
 
  .name {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
  .welcome-background {
   font-size: .8rem;
+   overflow: scroll;
 }
 
  .projects-background {
@@ -311,6 +313,7 @@ height: auto;
 
  .contact-info-section {
   font-size: .8rem;
+   overflow: scroll;
 }
 
 
