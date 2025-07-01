@@ -298,7 +298,7 @@ height: auto;
 }
 
  .name {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
  .welcome-background {
@@ -309,11 +309,13 @@ height: auto;
  .projects-background {
   font-size: .8rem;
    overflow: scroll;
+   min-width: 800px;
 }
 
  .contact-info-section {
   font-size: .8rem;
    overflow: scroll;
+   padding-bottom: 1rem;
 }
 
 
