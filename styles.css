@@ -287,47 +287,21 @@ a.project {
  .name {
   font-size: 1.5rem;}
 
-
-.nav {
-  font-weight: 500;
-  font-size: 1rem;}
-
-
-.tagline h1 {
-  font-size: 1.7rem;
-  font-weight: 550;
-  letter-spacing: 1px;
+.navbar-section {
+  height: auto;
 }
 
-.tagline p {
-font-weight: 500;
-font-size: .95rem;
+.tagline h1 {
+  letter-spacing: 1px;
 }
 
 .projects-background{
   overflow: scroll;
 }
-  
-.project-title {
-  font-weight: 450;
-  font-size: .8rem;
-}
-
-.projects-header-section {
-  font-size: .7rem;
-}
-
 
 .projects-sub-header {
   padding-top: .2rem;
 }
 
-.contact-info-section {
-  font-size: .7rem;
-}
-
-.social-icons {  
-  font-size: .5rem;
-}
 
 }
